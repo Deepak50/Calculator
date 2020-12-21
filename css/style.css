@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    width:50vh;
+    background: yellow;
+    height: 100vh;
+    margin: auto;
+    display: flex; 
+    flex-direction: column; 
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* vertical-align: middle; */
+    
+    
+}
+.calc{
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+}
+.textbox{
+    padding:0px;
+    width: 300px;
+    background: lightblue;
+    height: 5vh;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    /* margin-top:50px; */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.butcontainer{
+    width:300px;
+    background:orange;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    margin: auto;
+    margin-top:0%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-right:2px solid black;
+    border-left:2px solid black;
+    border-bottom:2px solid black;
+}
+
+.numbers{
+    width: 4rem;
+    height: 3rem;;
+    background-color: pink; 
+    margin: auto;
+    border: none;
+    outline: none;
+}
+
+.numbers:active{
+    background-color: hotpink;
+}
